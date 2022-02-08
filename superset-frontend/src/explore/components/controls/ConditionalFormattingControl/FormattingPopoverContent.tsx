@@ -38,9 +38,12 @@ const JustifyEnd = styled.div`
 `;
 
 const colorSchemeOptions = [
-  { value: 'rgb(0,255,0)', label: t('green') },
-  { value: 'rgb(255,255,0)', label: t('yellow') },
   { value: 'rgb(255,0,0)', label: t('red') },
+  { value: 'rgb(0,255,0)', label: t('green') },
+  { value: 'rgb(0,0,255)', label: t('blue') },
+  { value: 'rgb(255,255,0)', label: t('yellow') },
+  { value: 'rgb(255,0,255)', label: t('purple') },
+  { value: 'rgb(0,255,255)', label: t('cyan') },
 ];
 
 const operatorOptions = [
