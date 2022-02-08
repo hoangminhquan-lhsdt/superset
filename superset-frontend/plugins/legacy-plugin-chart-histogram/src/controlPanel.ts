@@ -101,6 +101,17 @@ const config: ControlPanelConfig = {
         ],
         [
           {
+            name: 'opacity',
+            config: {
+              type: 'TextControl',
+              label: t('Opacity'),
+              renderTrigger: true,
+              default: 1,
+            },
+          },
+        ],
+        [
+          {
             name: 'x_axis_label',
             config: {
               type: 'TextControl',
