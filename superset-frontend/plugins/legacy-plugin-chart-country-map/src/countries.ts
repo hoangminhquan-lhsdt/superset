@@ -64,6 +64,7 @@ import uruguay from './countries/uruguay.geojson';
 import usa from './countries/usa.geojson';
 import zambia from './countries/zambia.geojson';
 import vietnam from './countries/vietnam.geojson';
+import vietnam_hcm from './countries/vietnam_hcm.geojson';
 
 export const countries = {
   austria,
@@ -113,6 +114,7 @@ export const countries = {
   usa,
   zambia,
   vietnam,
+  vietnam_hcm,
 };
 
 export const countryOptions = Object.keys(countries).map(x => {
