@@ -34,3 +34,4 @@ lib/
 tmp/
 storybook-static/
 temporary_superset_ui/**/*
+plugins/legacy-plugin-chart-histogram/src/Histogram.jsx
